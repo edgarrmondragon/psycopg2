@@ -5,6 +5,7 @@ What's new in psycopg 2.9.13 (unreleased)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Fix parsing of malformed bytea input.
+- Fix parsing of malformed int64 input in arrays (:ticket:`#1847`).
 
 
 Current release
