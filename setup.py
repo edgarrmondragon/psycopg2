@@ -51,7 +51,6 @@ Intended Audience :: Developers
 License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 Programming Language :: Python
 Programming Language :: Python :: 3
-Programming Language :: Python :: 3.9
 Programming Language :: Python :: 3.10
 Programming Language :: Python :: 3.11
 Programming Language :: Python :: 3.12
@@ -525,7 +524,7 @@ setup(name="psycopg2",
       url="https://psycopg.org/",
       license="LGPL with exceptions",
       platforms=["any"],
-      python_requires='>=3.9',
+      python_requires='>= 3.10',
       description=readme.split("\n")[0],
       long_description="\n".join(readme.split("\n")[2:]).lstrip(),
       classifiers=[x for x in classifiers.split("\n") if x],

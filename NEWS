@@ -9,6 +9,7 @@ What's new in psycopg 2.9.13 (unreleased)
 - Fix parsing of malformed int64 input in arrays (:ticket:`#1847`).
 - Add a ``pyproject.toml`` file to declare a PEP 517 build backend
   (:ticket:`#1788`).
+- Drop support for Python 3.9.
 
 
 Current release
